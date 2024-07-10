@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChicWhiZ</title>
+    <!--Box-icon-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+
+
+    <!--second footer-->
+  
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+      @keyframes moveRight {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(100px); /* Adjust the distance to move */
+    }
+  }
+
+      .col-md-4{
+         width: 500px;
+         height: 500px;
+         animation: moveRight 2s ease infinite;
+         margin-right: 10px 
+      }
+      .col-md-4{
+        max-width: 100%;
+        display: flex; /* Use flexbox for layout */
+    align-items: center;
+      }
+      .card-title{
+        display: flex;
+        width: 700px;
+        align-items: center;
+        margin-left: 100px;
+        font-size: 30px;
+      }
+      .card-text{
+        display: flex;
+        width: 700px;
+        align-items: center;
+        margin-left: 100px;
+        font-size: 20px;
+      }
+     
+      <!--third-->
+   
+
+  .col-md-7 {
+    width: 1500px;
+    height: 600px;
+    animation: moveLeft 2s ease-in-out infinite;
+    margin-left: 20px;
+  }
+      .col-md-7{
+        max-width: 100%;
+        display: flex; /* Use flexbox for layout */
+    align-items: center;
+      }
+      .featurette-heading fw-normal lh-1{
+        display: flex;
+        width: 700px;
+        align-items: center;
+        margin-left: 100px;
+        font-size: 30px;
+      }
+      .lead{
+        display: flex;
+        width: 700px;
+        align-items: center;
+        margin-left: 100px;
+        font-size: 20px;
+      }
+     
+  
+
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+    
+</head>
+<body>
+ <header>
+   <div class="n">
+    <a href="a" class="logo"><img src="Gray_and_Beige-removebg-preview.png" alt="Logoo" width="300" height="200" class="d-inline-block align-text-top"></a>
+    <a href="a" class="login">Sign Up</a>
+   </div>
+   <header data-bs-theme="dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">ChicWhiz</a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarCollapse" >
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./project.html">Projects</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Gallery design
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./office.html">Office</a></li>
+                <li><a class="dropdown-item" href="./house.html">House</a></li>
+                <li><a class="dropdown-item" href="Restaurent.html">Restaurant</a></li>
+            
+            
+          
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+  </header>
+   
+ <section class="home" id="home">
+    <div class="home-text container">
+        <h2 class="home-title">ENVISION</h2>
+        <span class="home-subtitle" >YOUR HOME</span>
+    </div>
+</section>
+
+<div class="card mb-3" style="width: 100%; max-height: 500px; margin-top: 60px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="./Affordable.png" height="500px" width="500px" class="img-fluid rounded-start" alt="..."><hr>
+      <div class="text2">
+        <h5 class="card-title">Enjoy your dream room designs!</h5>
+      <p class="card-text" ">Your home should be welcoming and comfortable, as well as a stylish place to entertain friends and family.</p>
+      <p class="card-text" ">Unfortunately, creating a unique, beautiful home that utilises space efficiently whilst looking effortlessly stylish is not effortless at all. By mixing the inexpensive with the unusual, the old with the new, I can transform your home into an inspiring space that is totally unique and full of character..</p>
+      <p class="card-text"><small class="text-body-secondary">"Transform your space with ChicWhiz"</small></p>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="row featurette" style="width: 100%; max-height: 900px; margin-top: 40px;">
+  <div class="col-md-7">
+    <div style="margin-top: 30px;">
+      <h2 class="featurette-heading fw-normal lh-1" style="margin-left: 20px;">        Styles, trends and new looks that are ahead of the curve. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
+    <p class="lead" style="margin-right: 10px; margin-left: 30px;">Interior design fads come and go, but you're surely exploring the most recent trends if you're intending to build your own home, buy a new one, or are simply renovating your living space. We must designate a room with dependable office furnishings like a desk and an ergonomic chair, stationery supplies, lighting fixtures, and ornamental accents in order to make time for work in our homes. Some modern design ideas, however, merely amplify and perfect what the design world now enjoys. Either way, it is anticipated that ethereal spaces will transcend earlier successes.Before you start decluttering, identify specific goals you want to achieve.</p>
+   <a href="./readmore.html" > <p class="card-text" "><small class="text-body-secondary" style="color: blue;" >- READ MORE -</small></p></a>
+  </div>
+  </div>
+  <div class="col-md-5">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" style="max-height: 700px; max-width: 800px;">
+        <div class="carousel-item active">
+          <img src="https://cdn.decorilla.com/images/1200x740/fb9af78e-95bc-4eec-a185-ae1ade6894c6/Eclectic-Formal-Living-Room-Interior-Design-Rendering.jpg?cv=1" width="7000px" height="500px" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://cdn.decorilla.com/images/1200x740/a6e50faf-b4b4-4636-ac9c-7336f3f74175/Spa-Inspired-Master-Bathroom-Design-Rendering.jpg?cv=1" width="7000px" height="500px"  class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://cdn.decorilla.com/images/1200x740/2d8bb3bd-f143-4d72-b9fb-f39b1b5a484e/Glam-Elegant-Home-Interior-Design-Rendering.jpg?cv=1" width="7000px" height="500px"  class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<footer class="py-5 text-center text-body-secondary bg-body-tertiary" style="margin-top: 100px;">
+  <p>source <a href="https://getbootstrap.com/"></a> from <a href="https://twitter.com/mdo">ChicWhiz</a>.</p>
+  <p class="mb-0">
+    <a href="#">Back to top</a>
+  </p>
+</footer>
+<footer class="container py-5">
+  <div class="row">
+    <div class="col-12 col-md">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
+      <small class="d-block mb-3 text-body-secondary">© 2017–2023</small>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Features</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+        <li><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+        <li><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+        <li><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
+        <li><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+        <li><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Resources</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+        <li><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+        <li><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+        <li><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Resources</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary text-decoration-none" href="#">Business</a></li>
+        <li><a class="link-secondary text-decoration-none" href="#">Education</a></li>
+        <li><a class="link-secondary text-decoration-none" href="#">Government</a></li>
+        <li><a class="link-secondary text-decoration-none" href="#">Gaming</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>About</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+        <li><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+        <li><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+        <li><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+    
+
+
+
+
+   
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html
